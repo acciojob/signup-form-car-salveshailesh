@@ -1,16 +1,45 @@
 <!DOCTYPE html>
-
-<html>
+<html lang="en">
 
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+    <Form>
+        <label for="name">Name</label>
+        <input id="name" type="text" placeholder="Name" required>
+        <label for="email">Email</label>
+        <input id="email" type="Email" placeholder="Email" required>
+        <label for="">Gender</label>
+        <label for="gender_m">Male</label>
+        <input id="gender_m" type="Radio" name="gender" required>
+        <label for="gender_f">Female</label>
+        <input id="gender_f" type="Radio" name="gender" required>
 
+        <label for="cars">Car Brands</label>
+
+        <select aria-placeholder="--Please choose an option--
+        " id="">
+    <option value="">BMW</option>
+    <option value="">Forutner</option>
+    <option value="">Nexon</option></select>
+
+        <label for="age">Age</label>
+        <input id="age" type="number" placeholder="Age" required>
+        <label for="dob">DOB</label>
+        <input id="dob" type="date"  required>
+        <label for="tel">Phone Number</label>
+        <input id="tel" type="tel" placeholder="xxx-xxx-xxxx
+        ">
+        <label for="password">Password</label>
+        <input id="password" type="Password" placeholder="Password" required>
+        <label for="tos">I agree to the TOS</label>
+        <input id="tos" type="Checkbox" placeholder="" required>
+        <button type="submit ">Submit</button>
+    </Form>
 </body>
 
 </html>
